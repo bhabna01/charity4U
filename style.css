@@ -170,3 +170,24 @@ input[type=text] {
     ;
 
 }
+
+footer {
+    background: #0B0D17;
+    height: 200px;
+    text-align: center;
+
+}
+
+footer h2 {
+    color: #FF5959;
+    font-weight: bold;
+    font-family: 'Lobster';
+    padding: 20px;
+
+}
+
+footer h3 {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Manrope';
+}
