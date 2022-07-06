@@ -78,7 +78,20 @@ body {
     left: 338px;
     top: 979px;
     justify-content: center;
+    border-radius: 5px;
+
 }
+
+#custom-block {
+    border: 2px solid #FF5959;
+    background-color: #FFEEEE;
+
+}
+
+#customh1 {
+    color: #FF5959
+}
+
 
 .text-block {
     padding: 20px 20px 20px 20px;
@@ -96,4 +109,64 @@ input[type=text] {
 
 .lebel-style {
     color: gray;
+}
+
+.donate-plan-section {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+
+.donate-plan-section h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donate-plan-section p {
+    color: #777;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.block-section2 {
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+    height: 352px;
+    /* left: 157px; */
+    /* top: 1595.5px; */
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+
+}
+
+.block-section2 img {
+    padding: 30px 20px 20px 0px;
+
+}
+
+.block-section2 p {
+    font-size: 14px;
+
+}
+
+#customcolor1 {
+    background-color: rgba(79, 157, 166, 0.1);
+}
+
+#customcolor2 {
+    background-color: rgba(255, 89, 89, 0.1);
+
+}
+
+#customcolor3 {
+    background-color: #ddb271;
+    ;
+
 }
