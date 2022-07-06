@@ -49,19 +49,19 @@ body {
 
 }
 
-.donate-section {
+.section {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
 }
 
-.donate-section h1 {
+h1 {
     font-size: 40px;
     font-weight: 700;
 }
 
-.donate-section p {
+p {
     color: #777;
     font-size: 20px;
     font-weight: 300;
@@ -111,27 +111,7 @@ input[type=text] {
     color: gray;
 }
 
-.donate-plan-section {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
 
-}
-
-
-.donate-plan-section h1 {
-    font-size: 40px;
-    font-weight: 700;
-}
-
-.donate-plan-section p {
-    color: #777;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
-}
 
 .block-section2 {
     display: inline-block;
@@ -168,6 +148,48 @@ input[type=text] {
 #customcolor3 {
     background-color: #ddb271;
     ;
+
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 3px;
+}
+
+.column img {
+    width: 350px;
+    height: 400px;
+}
+
+
+
+form {
+    width: 800px;
+    height: 200px;
+    background: #FFF4D6;
+    margin: auto;
+
+}
+
+form input {
+    margin-top: 80px;
+    font-size: 18px;
+    width: 275px;
+    height: 48px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+
+
+}
+
+#theButton {
+    color: #FFEEEE;
+    background-color: #FF5959;
+
 
 }
 
